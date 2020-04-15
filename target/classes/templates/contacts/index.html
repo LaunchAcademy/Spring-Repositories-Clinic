@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http:www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Funky Contact List</title>
+</head>
+<body>
+  <ul>
+    <li class="contact" th:each="contact : ${contacts}">
+      <span th:text="${contact.fullName}"></span>
+    </li>
+  </ul>
+</body>
+</html>

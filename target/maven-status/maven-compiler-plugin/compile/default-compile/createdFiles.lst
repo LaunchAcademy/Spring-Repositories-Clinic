@@ -1,0 +1,6 @@
+com\launchacademy\springexample\SpringexampleApplication.class
+com\launchacademy\springexample\ServletInitializer.class
+com\launchacademy\springexample\controllers\ContactsController.class
+com\launchacademy\springexample\seeders\ContactSeeder.class
+com\launchacademy\springexample\models\Contact.class
+com\launchacademy\springexample\repositories\ContactRepository.class
